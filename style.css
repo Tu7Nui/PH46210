@@ -1,0 +1,150 @@
+.container{
+    position: relative;
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+}
+header .top-right{
+    width: 300px;
+    height: 40px;
+    background-color: orangered;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 30px;
+    text-align: center;
+    font-variant: small-caps;
+}
+.top-right a{
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+    padding: 5px;
+}
+.top-right a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.company-info{
+    bottom: 30px;
+    left: 15px;
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    box-shadow: 0 0 5px orangered;
+}
+header .company-info h1{
+    margin: 0;
+    padding: 0;
+    font-variant: small-caps;
+    color: white;
+    font-size: larger;
+    border-bottom: 1px dotted red;
+    font-size: 35px;
+    text-shadow: 0 0 5px;
+    box-shadow: 0 0 5px orangered;    
+}
+header .company-info h3{
+    margin: 0;
+    padding: 0;
+    font-variant: small-caps;
+    color: orangered;
+    letter-spacing: 3px;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: orange;
+    text-align: center;
+    font-variant: small-caps;
+}
+nav .a{
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    margin: 0 10px;
+}
+.menu>ul>li{
+    display: inline-block;
+    position: relative;
+}
+.menu>ul>li>a{
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 10px;
+    line-height: 40px;
+}
+.menu>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align: center;
+}
+.menu>ul>li>a:hover{
+    color: yellow;
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+}
+.menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: orangered;
+    font-variant: small-caps;
+    text-decoration: none;
+    font-size: larger;
+    padding: 0 10px;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+}
+.menu ul ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px gray; 
+}
+.menu ul ul a:hover{
+    background-color: orangered;
+    color: white;
+}
+.menu>aside {
+    min-height: 250px;
+    width: 15%;
+    background-color: lightgray;
+    float:right;
+}
+
+.menu>footer {
+    border-top: 5px double orangered;
+    line-height: 50px;
+    background-color: lightcyan;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+}
+
+.menu>nav>a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.meni>nav>a:hover {
+    color: yellow;
+    text-decoration: underline;
+
+}
+iframe[name=page]{
+    width: 100%;
+        min-height: 400px;
+}
